@@ -1,0 +1,108 @@
+/*Grundstruktur*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f3ef;
+  color: rgb(50, 49, 49);
+}
+
+/*Typsnitt och texter*/
+body,
+p,
+a {
+  font-family:
+    Helvetica Neue,
+    Helvetica,
+    Arial;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/*Rubriker*/
+h1,
+h2 {
+  font-family: Georgia, Garamond, serif;
+  font-weight: 550;
+  letter-spacing: 1px;
+}
+
+/*Bilder*/
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*Header*/
+.header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  color: rgb(50, 49, 49);
+}
+
+/*Navigeringen visas inte dierk på skärmen*/
+.menu {
+  display: none;
+  width: 100%;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: auto;
+  width: fit-content;
+  padding-left: 0;
+}
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  text-align: left;
+  display: block;
+  color: rgb(50, 49, 49);
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+.menu a {
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/*Visar meny när klassen open läggs till av js*/
+.menu.open {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*Ham meny knapp*/
+.menu-toggle {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: #f5f3ef;
+  color: rgb(50, 49, 49);
+}
+.menu-toggle:hover {
+  background-color: rgb(50, 49, 49);
+  color: #f5f3ef;
+}
+
+

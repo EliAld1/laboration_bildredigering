@@ -1,53 +1,64 @@
 <!doctype html>
 <html lang="sv">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bildredigering</title>
-  </head>
-  <body>
-    <header class="header">
-      <!--lägg till LOGGA-->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
 
-      <!--Navigation-->
-      <button class="menu-toggle">☰</button> <!--Hamburgermeny, liten skärm-->
-      <nav class="menu">
-        <ul>
-          <li><a href="index.html">Start</a></li>
-          <li><a href="pictures.html">Bilder</a></li>
-          <li><a href="about.html">Om mig</a></li>
-        </ul>
-      </nav>
+<body>
+    <header class="header">
+        <!--lägg till LOGGA-->
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.svg" alt="Logotyp">
+            </a>
+        </div>
+
+        <!--Navigation-->
+        <button class="menu-toggle">☰</button> <!--Hamburgermeny, liten skärm-->
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="pictures.html">Bilder</a></li>
+                <li><a href="about.html">Om mig</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
 
-      <!--Hero-->
-      <section class="hero">
-        <img src="images/header.png" alt="headerbild">
-      </section>
+        <!--Hero-->
+        <section class="hero">
+            <img src="images/header.png" alt="headerbild">
+        </section>
 
-      <!--Bilder-->
-      <section class="pictures">
-        <div class="picture-intro">
-          <h2>Bildredigering</h2>
-          <p>I detta projekt har jag arbetat med att skapa en enkel webbplats för att presentera mina bilder. Redigeringen och komprimerningen av bilderna har skett i redigeringsverktyget Photopea.</p>
-        </div>
-        <div class="container">
+        <!--Bilder-->
+        <section class="pictures">
+            <div class="picture-intro">
+                <h2>Bildredigering</h2>
+                <p>I detta projekt har jag arbetat med att skapa en enkel webbplats för att presentera mina bilder.
+                    Redigeringen och komprimerningen av bilderna har skett i redigeringsverktyget Photopea.</p>
+            </div>
+            <div class="container">
 
-            <article class="card">
-          <img src="images/bildserie001.png" alt="Bild 1">
-          </article>
+                <article class="card">
+                    <img src="images/bildserie001.png" alt="Bild 1">
+                </article>
 
-          <article class="card">
-          <img src="images/bildserie005.png" alt="Bild 2">
-          </article>
+                <article class="card">
+                    <img src="images/bildserie005.png" alt="Bild 2">
+                </article>
 
-          <article class="card">
-          <img src="images/bildserie006.png" alt="Bild 3">
-          </article>
+                <article class="card">
+                    <img src="images/bildserie006.png" alt="Bild 3">
+                </article>
 
-        </div>
-      </section>
+            </div>
+        </section>
     </main>
-  </body>
+</body>
+
 </html>
